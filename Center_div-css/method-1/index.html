@@ -1,0 +1,37 @@
+ <head>
+    <style>
+        * {
+        padding: 0;
+        margin: 0; 
+        box-sizing: border-box;
+        }
+        
+        .parent-div {
+        height: 100vh; 
+        width: 100vw;
+        background-color: black;
+        }
+        
+        .child-div {
+        height: 60vh;
+        width: 60vw;
+        background-color: yellow; 
+        position: absolute;
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        
+        
+        /* for text align horizontal -> justify-content. */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    </style>
+</head>
+<body>
+    <div class="parent-div">
+        <div class="child-div">
+            <h1 align=center>Hello Harsh Keep Going.</h1>
+        </div>
+    </div>
+</body>
